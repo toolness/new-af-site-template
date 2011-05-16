@@ -121,6 +121,9 @@ a {
 
 #footer .chapters {
   padding: 0;
+  column-count: 6;
+  -moz-column-count: 6;
+  -webkit-column-count: 6;
 }
 
 #footer .chapters li {
