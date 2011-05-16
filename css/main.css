@@ -100,7 +100,7 @@ a {
   min-width: 236.5px;
   vertical-align: bottom;
   margin-top: -22px;
-  padding-bottom: 22px;
+  padding-bottom: 44px;
 }
 
 #footer ul.social li img {
@@ -112,4 +112,27 @@ a {
   font-size: 18px;
   color: white;
   text-decoration: none;
+}
+
+#footer h2 {
+  color: white;
+  font-weight: normal;
+}
+
+#footer .chapters {
+  padding: 0;
+}
+
+#footer .chapters li {
+  list-style-type: none;
+  line-height: 1.5em;
+}
+
+#footer .chapters li a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#footer .chapters li a:hover {
+  text-decoration: underline;
 }
