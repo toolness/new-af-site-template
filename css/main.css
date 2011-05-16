@@ -109,9 +109,17 @@ a {
 }
 
 #footer ul.social li a {
+  position: relative;
   font-size: 18px;
   color: white;
   text-decoration: none;
+  -webkit-transition: top 0.2s;
+  -moz-transition: top 0.2s;
+  -o-transition: top 0.2s;
+}
+
+#footer ul.social li a:hover {
+  top: -10px;
 }
 
 #footer h2 {
