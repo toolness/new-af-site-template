@@ -3,8 +3,14 @@ html, body {
   margin: 0;
   padding: 0;
   background: url(../img/footer.png);
+  /* About 10pt. */
   font-size: 13.33px;
   -webkit-text-size-adjust: 100%;
+}
+
+img {
+  /* For IE8 and other browsers that don't understand HTML5. */
+  border: none;
 }
 
 a {
