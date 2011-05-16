@@ -89,3 +89,27 @@ a {
 #header ul.navbar li a:hover {
   color: white;
 }
+
+#footer ul.social {
+  padding: 0;
+}
+
+#footer ul.social li {
+  float: left;
+  list-style-type: none;
+  min-width: 236.5px;
+  vertical-align: bottom;
+  margin-top: -22px;
+  padding-bottom: 22px;
+}
+
+#footer ul.social li img {
+  position: relative;
+  top: 22px;
+}
+
+#footer ul.social li a {
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
