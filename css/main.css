@@ -17,7 +17,7 @@ a {
 #header {
   padding-top: 12pt;
   padding-bottom: 12pt;
-  width: 56pc;
+  width: 54pc;
   margin: 0 auto;
   font-size: 10pt;
 }
@@ -29,7 +29,7 @@ a {
 }
 
 #content {
-  width: 56pc;
+  width: 54pc;
   margin: 0 auto;
 }
 
@@ -38,7 +38,7 @@ a {
 }
 
 #footer {
-  width: 56pc;
+  width: 54pc;
   margin: 0 auto;
 }
 
@@ -77,11 +77,13 @@ a {
 }
 
 #header ul.navbar li a {
+  font-weight: bold;
   text-decoration: none;
   padding-left: 0.5em;
   padding-right: 0.5em;
   -webkit-transition: color 0.2s;
   -moz-transition: color 0.2s;
+  -o-transition: color 0.2s;
 }
 
 #header ul.navbar li a:hover {
