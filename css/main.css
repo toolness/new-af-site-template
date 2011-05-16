@@ -3,6 +3,7 @@ html, body {
   margin: 0;
   padding: 0;
   background: url(../img/footer.png);
+  font-size: 13.33px;
   -webkit-text-size-adjust: 100%;
 }
 
@@ -15,11 +16,10 @@ a {
 }
 
 #header {
-  padding-top: 12pt;
-  padding-bottom: 12pt;
-  width: 54pc;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  width: 946px;
   margin: 0 auto;
-  font-size: 10pt;
 }
 
 #content-wrapper {
@@ -29,7 +29,7 @@ a {
 }
 
 #content {
-  width: 54pc;
+  width: 946px;
   margin: 0 auto;
 }
 
@@ -38,14 +38,14 @@ a {
 }
 
 #footer {
-  width: 54pc;
+  width: 946px;
   margin: 0 auto;
 }
 
 #header h1 {
   display: inline;
   font-weight: normal;
-  font-size: 18pt;
+  font-size: 24px;
   margin: 0;
   color: #ff3f76;
 }
@@ -53,7 +53,7 @@ a {
 #header img.logo {
   width: 0.8em;
   height: 0.8em;
-  padding-right: 6pt;
+  padding-right: 8px;
 }
 
 #header .subtitle {
@@ -69,7 +69,7 @@ a {
 #header ul.navbar {
   float: right;
   margin: 0;
-  padding-top: 8pt;
+  padding-top: 11px;
 }
 
 #header ul.navbar li {
